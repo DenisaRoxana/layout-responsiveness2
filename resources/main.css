@@ -100,6 +100,7 @@ main {
 
 .image-wrapper{
     height: 600px;
+    /* atentie doar cu 33%, ajungi la un total de 99% si daca esti atenta iti ramane un spatiu in stanga, nu reusesti sa te intinzi pe tot viewport-ul. Recomand 33.3333%, sa reusesti sa fi cat mai precisa */
     width: 33%;
     display: flex;
     position: relative;
