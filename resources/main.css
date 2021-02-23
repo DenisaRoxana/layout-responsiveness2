@@ -101,7 +101,7 @@ main {
 .image-wrapper{
     height: 600px;
     /* atentie doar cu 33%, ajungi la un total de 99% si daca esti atenta iti ramane un spatiu in stanga, nu reusesti sa te intinzi pe tot viewport-ul. Recomand 33.3333%, sa reusesti sa fi cat mai precisa */
-    width: 33%;
+    width: 33.3333%;
     display: flex;
     position: relative;
 }
@@ -142,7 +142,7 @@ footer {
 
 .button-more-wrapper {
     width: 100%;
-    margin-bottom: 25%;
+    margin-bottom: 20%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -167,7 +167,7 @@ button {
     color: white;
     position: absolute;
     margin-bottom: 10%;
-    margin-left: 38%;
+    margin-left: 42%;
 }
 
 .footer-title div:nth-child(2) {
@@ -178,8 +178,8 @@ button {
 .form-wrapper {
     width: 60%;
     height: 30%;
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: 5%;
+    margin-left: 22%;
     position: absolute;
     display: flex;
 }
@@ -194,21 +194,22 @@ button {
 }
 
 input {
-    height: 40px;
+    height: 45px;
     margin: 15px;
     margin-left: 30px;
     background-color: #3d3d3d;
     border: none;
     color: white;
     padding-left: 7px;
+    width: 40%;
 }
 
 textarea {
     background-color: #3d3d3d;
     color: white;
     border: none;
-    height: 115px;
-    margin-top: 2%;
+    height: 83%;
+    margin-top: 1%;
 }
 
 ::placeholder {
@@ -222,10 +223,11 @@ textarea::placeholder {
 
 .button-send-wrapper {
     position: absolute;
-    bottom: 5%;
+    bottom: -48%;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-left: -5%;
 }
 
 .button-send-wrapper button {
@@ -353,8 +355,6 @@ textarea::placeholder {
         position: absolute;
         margin-bottom: 95%;
         margin-left: 25%;
-        /*display: flex;
-        flex-direction: column;*/
     }
 
     .form-wrapper {
